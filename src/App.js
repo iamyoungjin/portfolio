@@ -45,7 +45,7 @@ class App extends Component{
         style = {{textAlign:'center',backgroundColor:"blue"}}> 
         <MyComponent text={"ABC"} />
         <MyComponent text={"haha"}>
-          <h3>여기</h3>
+          <h3>여기 commit test</h3>
         </MyComponent>
         iamyoungjin
       </div>
