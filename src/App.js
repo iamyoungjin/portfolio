@@ -2,33 +2,13 @@ import logo from './logo.svg';
 import styled from 'styled-components';
 import './App.css';
 import { Component } from 'react';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           안녕하세요
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
+import Menu from './components/menu/menu'
 const Container = styled.div`
-  text-align: right;
-`
+  text-align: center;
+`;
 
 //stateful component
+
 //stateless component
 const MyComponent = props => {
 return <h1>Welcome To my {props.text} {props.children}</h1>;
@@ -48,6 +28,7 @@ class App extends Component{
           <h3>여기 commit test</h3>
         </MyComponent>
         iamyoungjin
+        <Menu/>
       </div>
       </Container>
     );
