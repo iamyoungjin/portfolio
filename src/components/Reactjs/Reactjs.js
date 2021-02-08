@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+
 
 class Reactjs extends Component {
     render() {
         return (
             <div>
-                This is React Js Page
             </div>
         )
     }
