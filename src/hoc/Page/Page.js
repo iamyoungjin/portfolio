@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Intro from '../../components/Intro/Intro'
-import Reactjs from '../../components/Reactjs/Reactjs'
+import Skill from '../../components/Skill/Skill'
 
 class Page extends Component {
     displayPage = (no) =>{
@@ -8,7 +8,7 @@ class Page extends Component {
             case 0:
                 return <Intro/>
             case 1:
-                return <Reactjs/>
+                return <Skill/>
             default:
                 return <Intro/>
         }
